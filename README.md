@@ -5,8 +5,8 @@
 1.部署时配置 v2ray core 的版本、Vmess协议的UUID、AlterId、Path和连接缓存。
 
 2.如果输入AppName变量，则自动生成订阅地址和二维码，通过配置V2_QR_Path变量修改地址
-二维码地址：https://test.herokuapp.com/1234/v2.png
-订阅地址：https://test.herokuapp.com/1234 (test改成自己的app名称，如果更改了V2_QR_Path，同时也要将对应的1234改成修改后的)
+二维码地址：https://test.herokuapp.com/qr_img/v2.png
+订阅地址：https://test.herokuapp.com/qr_img (test改成自己的app名称，如果更改了V2_QR_Path，同时也要将对应的1234改成修改后的)
 
 3.服务端部署后，点 open app ，能正常显示网页，地址补上path后访问显示 Bad Request，表示部署成功。
 
