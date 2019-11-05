@@ -25,13 +25,23 @@ shadowsocks+v2ray-plugin方案点击这里： <https://github.com/ygcaicn/ss-her
 
 **或者**
 
-配置文件地址：https://test.herokuapp.com/qr_img
+订阅地址：https://test.herokuapp.com/qr_img
 
-打开后复制，在客户端导入即可。
+在客户端中添加订阅即可
 
 **或者**
 
-手动配置
+手动配置（推荐使用二维码或者订阅的方式配置）
+
+```sh
+address: test.herokuapp.com (test替换为你的AppName)
+port: 443
+id: 部署时填写的UUID
+AlterID： 部署是填写的AlterID，默认64
+security: auto
+network: ws(websocket)
+传输安全：tls打开
+```
 
 客户端下载： https://www.v2ray.com/awesome/tools.html
 
