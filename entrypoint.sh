@@ -31,7 +31,8 @@ date -R
 
 
 if [ "$VER" = "latest" ]; then
-  V_VER=`wget -qO- "https://api.github.com/repos/v2ray/v2ray-core/releases/latest" | sed -n -r -e 's/.*"tag_name":"([vV0-9\.]+?)".*/\1/p'`
+  V_VER=`wget -qO- "https://api.github.com/repos/v2ray/v2ray-core/releases/latest" | sed -n -r -e 's/.*"tag_name".+?"([vV0-9\.]+?)".*/\1/p'`
+  [[ -z "${V_VER}" ]] && V_VER="v4.23.1"
 else
   V_VER="v$VER"
 fi
