@@ -1,5 +1,7 @@
 # 一键部署 v2ray 到 heroku
 
+**推荐使用最新的：<https://github.com/ygcaicn/Xray-heroku>**
+
 点击下面按钮部署：
 [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 - - -
